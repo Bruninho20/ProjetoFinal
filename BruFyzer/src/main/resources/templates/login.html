@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/loginstyle.css">
+    <title>BruFyzer Login</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">     
+                <img class="imagem" src="/Imagens/2428664_app_composition_editor_music_playlist_icon.png" alt="">        
+                <span> <a href="/BruFyzer/home"> BruFyzer</a> </span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="formulario">
+        <h1>Faça Login</h1>
+
+    <form action="#" th:action="@{/BruFyzer/login}" th:object="${user}" method="post">
+	
+			<label for="email" >Email:</label> 
+            <div class="icone">
+                <i><img  src="/Imagens/email.png" alt=""></i>
+            <input type="text" name="email"/>
+        </div>
+
+			<label for="senha" >Senha:</label>
+            <div class="icone">
+                <i><img src="/Imagens/senha.png" alt=""></i>
+             <input type="password" name="senha"/>
+            </div>
+        <button class="botao" type="submit">Entrar</button>
+	</form>
+
+    <footer>
+        <div class="verificacao">
+            <h2>Ainda não tem conta? <a  href="/BruFyzer/cadastrar">Faça uma agora</a></h2>
+        </div>
+    </footer>
+
+
+</div>
+
+</body>
+</html>

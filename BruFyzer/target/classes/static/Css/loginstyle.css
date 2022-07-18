@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Montserrat:wght@100;200;300;400&family=Raleway:wght@100;200&family=Titillium+Web:ital,wght@0,300;1,200;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Montserrat', sans-ser;
+    background: linear-gradient(-45deg, #ffce51, #ff7253, #fd5754);
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+ 
+}
+
+.imagem{
+    width: 60px;
+    height: 60px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 3%;
+}
+
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-radius: 22px;
+    padding:10px ;
+    border-style: none;
+    outline:none;
+}
+
+.botao{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 20%;
+    height: 5vh;
+    border-radius: 22px;
+    border-style: none;
+    margin-left: 25px;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+}
+
+.botao:hover{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition:0.5s;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+ }
+
+ .icone i{
+    margin-right: 10px;
+}
+
+.verificacao{
+    margin-top: 30px;
+}

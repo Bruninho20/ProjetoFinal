@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/player4style.css">
+    <title>BruFyzer Player</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">     
+                <img class="imagem" src="/Imagens/2428664_app_composition_editor_music_playlist_icon.png" alt="">        
+                <span> <a href="/BruFyzer/home"> BruFyzer</a> </span>
+            </div>
+            <div class="menu-mob">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </div>
+    <h1>Escute as músicas aqui</h1>
+
+
+    <div class="sub-menu">
+        <h2 class="genero">Sertanejo</h2>
+         </div>
+     
+         <div class="container2">
+             <div class="lista">
+                 <ul>
+                    <h3>Lista de musicas : Péricles</h3>
+                    <li>1 - Melhor eu ir </li>
+                    <li> <a class="link" href="https://www.youtube.com/watch?v=_BMcq_idY5s&list=PLDsD2k6nWSLg37Z5RY4etCk2W2Aw98asj"> <u>- Clique aqui para ouvir mais </u></a></li>
+                 </ul>
+             </div>
+         <div class="container3">      
+         <img class="imagem2" src="/Imagens/meia lua.jpg" alt="">
+         <div class="descricao">
+             <h2>Melhor eu ir</h2>
+             <i>Péricles</i>
+         </div>
+         <div class="duracao">
+             <div class="barra">
+                 <progress value="0" max="1"></progress>
+                 <div class="ponto"></div>
+             </div>
+             <div class="tempo">
+                 <p class="inicio">0:00</p>
+                 <p class="fim">3:40</p>
+             </div>
+         </div>
+         <div class="player">       
+           <img class="play" src="/Imagens/play.png" alt="">
+           <img class="pause" src="/Imagens/pause.png" alt="">
+         </div>
+     </div>
+     </div>
+     
+     <div class="botao">
+        <button> <a href="/BruFyzer/player">Voltar</a> </button>
+    </div>
+    
+     <audio src="/Musicas/pericles-melhor-eu-ir-91512ac5.mp3"></audio>
+     
+     <script type="text/javascript" src="/JavaScript/player4.js"></script>
+</body>
+</html>
