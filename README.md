@@ -30,4 +30,4 @@ BruFyzer é um site desenvolvido para poder escutar prévias de algumas músicas
 # Observações
 - As músicas baixadas para a criação do site BruFyzer, foram coletadas de forma legal com o consetimento dos artistas para baixarem suas músicas de forma gratuita.
 - Todos os ícones e imagens foram coletados de sites legalizados gratuitos.
-- Editado por: Caio Henrique Ferraz da Silva 
+- Video editado por: Caio Henrique Ferraz da Silva 
